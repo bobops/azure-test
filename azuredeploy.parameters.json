@@ -1,0 +1,48 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "location": {
+            "value": "uksouth"
+        },
+        "virtualMachineName": {
+            "value": "rob-dev-test"
+        },
+        "virtualMachineSize": {
+            "value": "Standard_D2s_v3"
+        },
+        "adminUsername": {
+            "value": "homelyfeadmin"
+        },
+        "virtualNetworkName": {
+            "value": "DtlRob-Devtest-lab"
+        },
+        "networkInterfaceName": {
+            "value": "rob-dev-test914"
+        },
+        "networkSecurityGroupName": {
+            "value": "rob-dev-test-nsg"
+        },
+        "adminPassword": {
+            "value": null
+        },
+        "diagnosticsStorageAccountName": {
+            "value": "diag0ca8fae08b4be036"
+        },
+        "diagnosticsStorageAccountId": {
+            "value": "/subscriptions/fa24f84f-9288-461d-ae28-9d3f37b33b04/resourceGroups/homelyfe-packer-Windows/providers/Microsoft.Storage/storageAccounts/diag0ca8fae08b4be036"
+        },
+        "subnetName": {
+            "value": "DtlRob-Devtest-labSubnet"
+        },
+        "publicIpAddressName": {
+            "value": "rob-dev-test-ip"
+        },
+        "publicIpAddressType": {
+            "value": "Dynamic"
+        },
+        "publicIpAddressSku": {
+            "value": "Basic"
+        }
+    }
+}
